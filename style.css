@@ -69,15 +69,14 @@ a:hover{
     color:rgb(226, 112, 112);
 }
 .main-content{
-    height: 111vh;
-    background-color:wheat;
+    height: 50vh;
+    background-color:#fff;
 }
 .title{
     padding-top:40px;
     text-align: center;
     color:#333;
     font-size: 2rem;
-    padding-bottom: 30px;
 }
 .img-container{
    display:grid;
@@ -85,7 +84,9 @@ a:hover{
    grid-template-rows: 300px;
    grid-gap: 20px;
    justify-content: center;
-   /* margin-bottom: 40px; */
+   padding-top:40px;
+   padding-bottom: 80px;
+
 }
 img{
     height: 300px;
